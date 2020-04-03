@@ -1,0 +1,17 @@
+{
+  "name": "rollup-jest-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-jest": "^25.2.6",
+    "jest": "^25.2.7",
+    "rollup": "^2.3.2"
+  },
+  "scripts": {
+    "build": "rollup src/foo.js --file dist/bundle.js --format umd --name 'bundle'",
+    "jest": "jest"
+  }
+}
