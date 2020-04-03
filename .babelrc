@@ -1,5 +1,6 @@
 {
   "env": {
+    // When in a test environment, will use a standard transform preset.
     "test": {
       "presets": [
         [
