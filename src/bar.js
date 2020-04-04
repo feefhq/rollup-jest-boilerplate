@@ -1,1 +1,1 @@
-export default 'bar'
+export const bar = 'bar'

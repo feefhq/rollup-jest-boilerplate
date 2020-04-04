@@ -11,6 +11,8 @@
   },
   "scripts": {
     "build": "rollup src/foo.js --file dist/bundle.js --format umd --name 'bundle'",
-    "jest": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   }
 }
